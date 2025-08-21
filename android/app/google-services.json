@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "124611112992",
+    "project_id": "trufbooking-d3c07",
+    "storage_bucket": "trufbooking-d3c07.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124611112992:android:b9f8f14e659af2f6dccc45",
+        "android_client_info": {
+          "package_name": "com.example.turfbooking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQbe-A5e6xh5ui7jqFGutiAjmV9GSHIHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
