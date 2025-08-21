@@ -38,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
             child: BlocConsumer<AuthBloc, AuthState>(
               listener: (context, state) {
                 if (state is AuthAuthenticated) {
-                  goRouter.goNamed(Routes.home.name);
+                  // goRouter.goNamed(Routes.home.name);
                 } else if (state is AuthFailure) {
                   ScaffoldMessenger.of(
                     context,
