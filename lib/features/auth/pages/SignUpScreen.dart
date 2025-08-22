@@ -37,7 +37,7 @@ class _SignupScreenState extends State<SignupScreen> {
             child: BlocConsumer<AuthBloc, AuthState>(
               listener: (context, state) {
                 if (state is AuthAuthenticated) {
-                  // goRouter.goNamed(Routes.home.name);
+                  goRouter.goNamed(Routes.homeScreen.name);
                 } else if (state is AuthFailure) {
                   ScaffoldMessenger.of(
                     context,
@@ -204,6 +204,7 @@ class _SignupScreenState extends State<SignupScreen> {
                                           ),
                                         );
                                       }
+                                      goRouter.goNamed(Routes.homeScreen.name);
                                     },
                               child: state is AuthLoading
                                   ? const CircularProgressIndicator(
